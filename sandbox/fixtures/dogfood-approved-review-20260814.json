@@ -1,0 +1,9 @@
+{
+  "schema_version": "nohands-public-dogfood-v0.1",
+  "fixture_id": "approved-review",
+  "synthetic": true,
+  "intended_outcome": "PASS_GITHUB_ENFORCEMENT_WIRING_ONLY",
+  "never_merge": true,
+  "contains_private_product_logic": false,
+  "contains_customer_or_internal_data": false
+}
