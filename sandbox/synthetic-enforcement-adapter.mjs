@@ -21,6 +21,10 @@ if (policy.expected_check_name !== "NO HANDS Merge Gate Required Check") {
   throw new Error("required check identity drift");
 }
 
+// Synthetic self-modification dogfood marker. This remains intentionally candidate-controlled;
+// branch protection must still require an independent approval.
+const candidateEvaluatorModified = true;
+
 process.stdout.write(
   JSON.stringify(
     {
@@ -29,6 +33,7 @@ process.stdout.write(
       result: policy.result,
       sandbox_adapter_not_product_logic: true,
       private_product_source_published: false,
+      candidate_evaluator_modified: candidateEvaluatorModified,
     },
     null,
     2,
