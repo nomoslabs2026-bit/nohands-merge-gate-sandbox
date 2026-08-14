@@ -1,0 +1,8 @@
+{
+  "schema_version": "nohands-public-dogfood-v0.1",
+  "fixture_id": "stale-head-new-push",
+  "synthetic": true,
+  "never_merge": true,
+  "previous_head": "0c8a724517e00b9e4089da6c7bf26062498a3fff",
+  "contains_private_product_logic": false
+}
