@@ -3,6 +3,6 @@
   "sandbox_adapter_not_product_logic": true,
   "synthetic_data_only": true,
   "private_product_source_published": false,
-  "expected_check_name": "NO HANDS Merge Gate Required Check",
-  "result": "PASS_GITHUB_ENFORCEMENT_WIRING_ONLY"
+  "expected_check_name": "INTENTIONALLY WRONG CHECK NAME",
+  "result": "FAIL_REQUIRED_CHECK_DOGFOOD"
 }
